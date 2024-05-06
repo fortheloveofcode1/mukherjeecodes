@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Profile</h1>
+        <nav>
+            <ul>
+                <li id="tab1" onclick="openTab('about.html', event)">About Me</li>
+                <li id="tab2" onclick="openTab('blog.html', event)">Blog</li>
+                <li id="tab4" onclick="openTab('contact.html', event)">Contact</li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="left-section">
+            <img class="profile-image" src="picture1.jpg" alt="Profile Picture">
+        </div>
+        <div class="right-section">
+            <h2>Hello there, esteemed professionals and potential collaborators! I am Priyanka Mukherjee.let's embark on a journey of innovation and discovery, shaping the future of software engineering one breakthrough at a time.</h2>
+            <div class="javascript-info">
+                <p>
+                    In addition to my technical pursuits, I extend my expertise through Topmate, offering invaluable services such as mock interviews, comprehensive resume reviews, and personalized career counseling sessions.
+                     My goal is not only to excel in my own professional endeavors but also to empower and uplift fellow professionals on their career paths.
+                </p>
+                <p>
+                    As I navigate the ever-evolving landscape of technology, I am eager to forge new connections, collaborate on exciting ventures, and contribute to the collective advancement of our field. 
+                    Together, let's embark on a journey of innovation and discovery, shaping the future of software engineering one breakthrough at a time.
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <iframe id="tabContent" src="" frameborder="0"></iframe>
+
+    <script src="script.js"></script>
+</body>
+</html>

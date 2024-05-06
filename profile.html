@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Profile</h1>
+        <nav>
+            <ul>
+                <li id="tab1" class="active" onclick="openTab(1)">About Me</li>
+                <li id="tab2" onclick="openTab(2)">Blog</li>
+                <li id="tab3" onclick="openTab(3)">Portfolio</li>
+                <li id="tab4" onclick="openTab(4)">Contact</li>
+                <li id="tab5" onclick="openTab(5)">Settings</li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="tabContent">
+        <div id="tab1Content" class="tabContent active"></div>
+        <div id="tab2Content" class="tabContent"></div>
+        <div id="tab3Content" class="tabContent"></div>
+        <div id="tab4Content" class="tabContent"></div>
+        <div id="tab5Content" class="tabContent"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
