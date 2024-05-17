@@ -212,7 +212,7 @@ section {
 .btn_container {
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
     margin-top: 1rem;
 }
 
@@ -322,9 +322,17 @@ article .icon {
     position: relative;
 }
 
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
 .color-container {
     border-color: rgb(163, 163, 163);
     background: rgb(250, 250, 250);
+    display: flex;
+    flex-direction: column;
 }
 
 .project-img {
@@ -341,4 +349,23 @@ article .icon {
     color: black;
     border-color: rgb(163, 163, 163);
 
+}
+
+.btn-color-2 {
+    color: rgb(67, 45, 209);
+    border-color: rgb(198, 128, 128);
+    border-style: bold;
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 1rem;
+    border: lightseagreen;
+    cursor: pointer;
+
+}
+
+.btn-color-2:hover {
+    background-color: lightseagreen;
+    color: white;
 }
